@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LiuQixuan/IndexTypesafe.git"
+    "url": "git+https://github.com/LiuQixuan/TypesafeIndex.git"
   },
   "keywords": [
     "vue",
@@ -22,9 +22,9 @@
   "author": "LiuQixuan@Aiusoft",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LiuQixuan/IndexTypesafe/issues"
+    "url": "https://github.com/LiuQixuan/TypesafeIndex/issues"
   },
-  "homepage": "https://github.com/LiuQixuan/IndexTypesafe#readme",
+  "homepage": "https://github.com/LiuQixuan/TypesafeIndex#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "jest": "^27.0.6",
