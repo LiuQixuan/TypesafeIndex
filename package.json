@@ -1,11 +1,12 @@
 {
   "name": "typesafeindex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "用于将string类型转换为目标对象得键类型,从而在vscode消除typescript得string无法作为目标对象的索引的报错.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "./node_modules/.bin/tsc.cmd -p ./tsconfig.json",
-    "test": "jest"
+    "build": ".\\node_modules\\.bin\\tsc.cmd -p .\\tsconfig.json",
+    "test": "jest",
+    "test-c": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -26,9 +27,10 @@
   },
   "homepage": "https://github.com/LiuQixuan/TypesafeIndex#readme",
   "devDependencies": {
+    "@jest/types": "^27.1.0",
     "@types/jest": "^27.0.1",
     "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
     "typescript": "4.3.5"
-  },
-  "dependencies": {}
+  }
 }
